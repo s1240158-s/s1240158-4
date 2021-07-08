@@ -5,9 +5,9 @@
 int main(){
   int a,b;
   char str[10];
-  /*printf("What is your name?\n");
+  printf("What is your name?\n");
   scanf("%s",str);
-  printf("Hello, %s\n",str);*/
+  printf("Hello, %s\n",str);
   srand((unsigned int)time(NULL));
   a=rand()%6+1;
   b=rand()%6+1;
